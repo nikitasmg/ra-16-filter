@@ -1,6 +1,7 @@
 import React from 'react';
 import ShopCard from "../shopCard/ShopCard";
 import s from './cardView.module.scss'
+
 const CardsView = ({cards}) => {
     return (
         <div className={s.list}>

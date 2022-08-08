@@ -11,8 +11,8 @@ import {
 function App() {
 
     let activeStyle = {
-        color:'white',
-        background:'black',
+        color: 'white',
+        background: 'black',
     };
 
     return (
@@ -21,7 +21,7 @@ function App() {
                 <NavLink
                     to="/"
                     className={'navbar__item'}
-                    style={({ isActive }) =>
+                    style={({isActive}) =>
                         isActive ? activeStyle : undefined
                     }
                 >
@@ -30,7 +30,7 @@ function App() {
                 <NavLink
                     to="/layouts"
                     className={'navbar__item'}
-                    style={({ isActive }) =>
+                    style={({isActive}) =>
                         isActive ? activeStyle : undefined
                     }
                 >

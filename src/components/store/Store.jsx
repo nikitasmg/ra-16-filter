@@ -5,6 +5,7 @@ import ListView from "../listView/ListView";
 import {products} from "../../data/products";
 import s from './store.module.scss'
 import cn from "classnames";
+
 const Store = () => {
     const [isCardView, setIsCardView] = useState(true)
 
