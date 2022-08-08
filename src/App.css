@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.navbar__item {
+    padding: 10px;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    border: 1px solid black;
+}

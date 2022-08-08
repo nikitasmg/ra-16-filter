@@ -6,7 +6,7 @@ import s from './portfolio.module.scss'
 
 const Portfolio = () => {
 
-    const [filter, setFilter] = useState('Websites')
+    const [filter, setFilter] = useState('All')
 
     const activeItems = useMemo(() => {
         if (filter === 'All') {

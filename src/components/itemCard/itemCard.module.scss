@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #f6f6f6;
+}
+
+.img {
+  width: 100px;
+}
+
+.name {
+  text-transform: uppercase;
+}
+
+.color {
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.45);
+}
+
+.price {
+  color: #ab1423;
+}
+
+.button {
+  padding: 10px 20px;
+  color: #ab1423;
+  border: 2px solid #ab1423;
+  background-color: transparent;
+  border-radius: 20px;
+}
