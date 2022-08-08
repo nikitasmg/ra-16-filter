@@ -1,0 +1,22 @@
+.list {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.item {
+  padding: 10px 20px;
+  border: 2px solid #212020;
+  cursor: pointer;
+  transition: background-color .2s linear;
+  &.active {
+    background-color: #212020;
+    color: #fff;
+  }
+
+  &:hover {
+    background-color: #212020;
+    color: #fff;
+    transition: background-color .2s linear;
+  }
+}
